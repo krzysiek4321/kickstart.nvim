@@ -676,6 +676,7 @@ require('lazy').setup({
       --  Feel free to add/remove any LSPs that you want here. They will automatically be installed.
       local servers = {
         clangd = {},
+        biome = {},
         -- gopls = {},
         -- pyright = {},
         -- rust_analyzer = {},
